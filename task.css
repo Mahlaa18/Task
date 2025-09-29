@@ -12,21 +12,101 @@ body{
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    padding: 0;
+}
+
+.red-hat-display-task{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .card{
-    width: 500rem;
-    height: 70rem;
+    outline: solid transparent;
+    border-width: 5rem;
+    height: 60rem;
     background: hsl(225, 100%, 98%);
     border-radius: 2rem;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
     padding: 2rem;
     max-width: 35rem;
     text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 img{
-    width: 20rem;
-    height: 20rem;
-    border-radius: 2rem;
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+    display: block;
+    object-position: top;
+    margin: 0;
+}
+
+h1{
+    width: 100%;
+    height: 5rem;
+    background-color: blueviolet;
+
+}
+
+.description{
+    width: 100%;
+    height: 5rem;
+    background-color: blueviolet;
+
+}
+
+.payment{
+    width: 75%;
+    height: 5rem;
+    border: none;
+    outline: none;
+    border: .2rem solid hsl(245, 75%, 52%);
+    border-radius: .9rem ;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: rgba(87, 87, 224, 0.56) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-size: 1.5rem;
+    transform: scale(1);
+}
+
+.payment:hover{
+    background-color: rgba(136, 133, 133, 0.257);
+    box-shadow: rgba(0, 0, 0, 0.435) 2rem 1rem 3rem;
+    transform: scale(1.2);
+    color: rgba(0, 0, 0, 0.474);
+}
+
+.cancel{
+    width: 100%;
+    height: 5rem;
+    border: none;
+    outline: none;
+    border: .2rem solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-size: 1.5rem;
+    transform: scale(1);
+}
+
+.cancel:hover{
+    background-color: rgba(136, 133, 133, 0.257);
+    box-shadow: rgba(0, 0, 0, 0.435) 2rem 1rem 3rem;
+    transform: scale(1.2);
+    color: rgba(0, 0, 0, 0.474);
+}
+
+.plan-box{
+    width: 100%;
+    height: 5rem;
+    border: none;
+    outline: none;
+    border: .2rem solid hsl(0, 0%, 100%);
 }
