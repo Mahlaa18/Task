@@ -13,13 +13,10 @@ body{
     min-height: 100vh;
     margin: 0;
     padding: 0;
-}
-
-.red-hat-display-task{
-  font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .card{
